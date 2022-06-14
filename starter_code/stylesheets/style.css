@@ -40,22 +40,6 @@ header p {
     text-align: left;
     font-size: 2em;
 }
-form input{
-    border-radius: 5px;
-    width: 98%;
-    margin-bottom: 10px;
-    padding: 10px;
-}
-
-button {
-    background-color: #192592;
-    color: white;
-    display: flex;
-    width: 100%;
-    padding: 10px;
-    justify-content: center;
-    border-radius: 5px;
-}
 
 header p {
     text-align: center;
@@ -93,6 +77,7 @@ header img {
 
 .logos img {
     padding: 50px;
+    width: 80%;
 }
 
 .greysection hr {
@@ -107,7 +92,12 @@ header img {
 
 .endofmain p {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.5em;    
+}
+
+.endofmain {
+    padding: 30px;
+
 }
 
 .line {
@@ -120,6 +110,7 @@ header img {
     text-decoration: none;
     align-items: baseline;
     color: grey;
+    
 }
 
 .sitemap li {
@@ -159,4 +150,41 @@ header img {
 
 .social {
     padding-top: 15px;
+}
+
+@media (max-width: 766px) {
+    form input{
+        border-radius: 5px;
+        width: 98%;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    
+    button {
+        background-color: #192592;
+        color: white;
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        justify-content: center;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width:767px) and (max-width:961px) {
+    
+    button {
+        background-color: #192592;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;        
+    }
+
+    form input{
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 10px;
+        display:flex;
+    }
+
 }
